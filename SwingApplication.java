@@ -44,9 +44,7 @@ public abstract class SwingApplication {
         this.FRAME.addWindowListener(new WindowAdapter() {
             @Override
             public void windowClosing(WindowEvent windowEvent) {
-                stop();
-            }
-        });
+                stop();}});
 
         /*
          * Sets the current FPS and the millisecond update time for the Swing
